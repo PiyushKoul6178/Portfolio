@@ -199,6 +199,9 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
     color: rgb(240, 233, 233);
     
 }
+.skill-bar{
+    margin-left: 30px;
+}
 #skills{
         margin-top: 45px;
         width: 98%;
@@ -794,3 +797,141 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
 		transform:translateY(-10px);
 	}
 }
+@media only screen and (max-width: 500px){
+    .dot{
+        margin: 0px 6px;
+        right: 42px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #main{
+        height: 607px;
+    }
+    .content{
+        top: 200px;
+    left: 61px;
+    font-size: 24px;
+    height: 400px;
+    }
+    #hello{
+        width: 58px;
+    }
+    #aboutus b{
+        font-size: 5px;
+    }
+    #aboutme{
+        position: relative;
+        height: 500px;
+        margin-left: -16px;
+        width: 96%;
+
+    }
+    #portfolio-photo{
+        width: 49%;
+    height: 202px;
+    left: 9px;
+    display: inline;
+    top: 129px;
+    }
+    #education{
+        left: 41px;
+    }
+    #aboutuscontent{
+        right: 10px;
+        font-size: 10px;
+    }
+    #education span{
+        top: 10px;
+        font-size: 15px;
+        left: -30px;
+    }
+    #educationicon{
+        right: 69px;
+    }
+    #cards{
+        height: 100px;
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content:flex-start;
+        flex-wrap: wrap ;
+    }
+    .cardsinfo{
+        height: 120px;
+        width: 40%;
+        margin-left: 10px;
+    }
+    .cardbody{
+        font-size: 8px;
+    }
+    .cardimage{
+        position: relative;
+        height: 49px;
+        width: 103%;
+    }
+    .skill-div {
+        margin-left: 45px;
+    width: 100px;
+    }
+    .skill-image{
+        position: relative;
+    margin-top: 20px;
+    transition: .3s ease-in-out;
+    height: 81px;
+    }
+    .skill-bar{
+        margin-left: 10px;
+    }
+    #skills{
+        height: 900px;
+    }
+    #project-inside{
+        margin-left: 17px;
+        height: 600px;
+    }
+    #project-inside p{
+        font-size: 16px;
+    }
+    #span{
+        left: 24%;
+    font-size: 8px;
+    }
+	#contactUsInfo{
+		padding:30px;
+		width: 100%;
+		flex-direction: row;
+		margin-bottom: 10px;
+        left: 9px;
+	}
+	#contactUsInfo ul li span:nth-child(1){
+		font-size:2vw;
+	}
+	#contactUs{
+		display: flex;
+		flex-direction: column-reverse;
+		top:10px;
+		height:auto;
+		
+	}
+	#contactUsForm{
+		margin-left:9px;
+		padding-left:55px;
+		width: 100%;
+	}
+	.inputBox{
+		margin-bottom: 2vw;
+	}
+	#stay-in-touch{
+		align-self: center;
+		width:30%;
+	}
+
+	.inputBox input:focus ~ span,
+	.inputBox input:valid ~ span,
+	.inputBox textarea:focus ~ span,
+	.inputBox textarea:valid ~ span{
+		font-size:6px;
+		transform:translateY(-10px);
+	}
+}
+
